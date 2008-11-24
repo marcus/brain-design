@@ -1,0 +1,26 @@
+The purpose of this project is to make PersonalBrain look at little nicer. Currently it provides:
+
+* A new background for PersonalBrain
+* A few replacement icons/buttons for the application itself
+
+Note: This doesn't touch your data at all. If you mess up, worst case scenario is you have to download another copy of PersonalBrain and re-install it. Your database and everything else will still be there. If you're still nervous feel free to back it all up first.
+
+To apply the changes, download the files and from a Terminal (in OS X) cd into the download directory and run the following command.
+
+p -Rf Resources/* /Applications/PersonalBrain.app/Contents/Resources/
+
+This replaces the existing images with the new ones leaving everything else in place. On Windows I'm not sure how to do this, but if you are a Windows user and would like to send me instructions (or fork the project and write them yourself) I'd be happy to include them. Same for Linux.
+
+TODO:
+There are plenty of other icons and images that I haven't touched and I'd be happy for any help in making them nicer.
+
+The license for any modifications I've made is Creative Commons attribution (you can do whatever you want with it if you give e some attribution if you change this or post it elsewhere. Really you don't have to even give me attribution but that'd be nice to do if you feel like it.)
+http://creativecommons.org/licenses/by/3.0/us/
+
+Marcus Vorwaller
+marcus (at) vorwaller (dot) net
+http://marcusvorwaller.com/blog
+
+The PersonalBrain logo is copyright TheBrain, © 1998-2005. PersonalBrain is trademark or registered trademark of TheBrain in the United States and foreign countries.
+
+For more information about PersonalBrain, see http://thebrain.com or my review: http://marcusvorwaller.com/blog/archives/2007/09/04/personal-brain-4-review/
