@@ -7,7 +7,7 @@ Note: This doesn't touch your data at all. If you mess up, worst case scenario i
 
 To apply the changes, download the files and from a Terminal (in OS X) cd into the download directory and run the following command.
 
-p -Rf Resources/* /Applications/PersonalBrain.app/Contents/Resources/
+cp -Rf Resources/* /Applications/PersonalBrain.app/Contents/Resources/
 
 This replaces the existing images with the new ones leaving everything else in place. On Windows I'm not sure how to do this, but if you are a Windows user and would like to send me instructions (or fork the project and write them yourself) I'd be happy to include them. Same for Linux.
 
